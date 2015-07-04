@@ -206,6 +206,9 @@ footer[role=contentinfo] img {
 	margin-bottom: 0.2em;
 }
 .intro {
+	position: absolute;
+	top: 192px;
+	left: 78%;
 	font-size: 1.8em;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -486,7 +489,15 @@ footer[role=contentinfo] img {
 	}
 	.blog-logo img {
 		width: auto;
+		
 	}
+	.intro {
+		position: absolute;
+		top: 120px;
+		left: 50%;
+		font-size: 16px;
+		line-height: 1.2;
+		margin: 0 auto;
 }
 @media all and (min-width:40em) {
 	h1 {
@@ -561,6 +572,7 @@ footer[role=contentinfo] img {
 		color: #000;
 		border-bottom-color: #000;
 	}
+
 	
 	
 	/*Blog*/
@@ -608,6 +620,13 @@ footer[role=contentinfo] img {
 	.grid ul li:nth-child(odd) {
 		padding-right: 0;
 	}
+	.intro {
+		position: absolute;
+		top: 192px;
+		left: 78%;
+		font-size: 1.8em;
+		line-height: 1.2;
+		margin: 0 auto;
 }	
 
 

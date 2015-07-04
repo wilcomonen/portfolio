@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Fluid Width Videos with Fitvids.js</title>
+        <style>
+          body {
+            background: #fff;
+          }
+
+          video {
+            max-width: 100%;
+            height: auto;
+          }
+
+          iframe,
+          embed,
+          object {
+            max-width: 100%;
+          }
+
+          .container {
+            width: 70%;
+            padding: 5%;
+            margin:0px auto;
+            background:#fff;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+          }
+
+          .vendor {
+            padding: 2%;
+            background: #d1eed1;
+            margin-bottom: 2em;
+          }
+
+          .unsupported {
+            background: #fff;
+          }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="vendor">
+        <div class="vendor">
+          <iframe class="fitvidsignore" src="https://player.vimeo.com/video/67251474" width="800/embed/?moog_width=800" height="450" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="../js/jquery.fitvids.js"></script>
+      <script>
+        // Basic FitVids Test
+        $(".container").fitVids();
+        // Custom selector and No-Double-Wrapping Prevention Test
+        $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+      </script>
+      </body>
+  </html>
+  
+  <iframe src="https://player.vimeo.com/video/67251474" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/67251474">Wilco Monen LaVoie</a> from <a href="https://vimeo.com/user8761090">Wilco Monen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

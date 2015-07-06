@@ -205,14 +205,14 @@ footer[role=contentinfo] img {
 .home h1 {
 	margin-bottom: 0.2em;
 }
-.intro {
-	position: absolute;
-	top: 192px;
-	left: 78%;
-	font-size: 1.8em;
-	line-height: 1.2;
-	margin: 0 auto;
-}
+	.intro {
+		position: absolute;
+		top: 192px;
+		left: 50%;
+		font-size: 1.8em;
+		line-height: 1.2;
+		margin: 0 auto;
+}	
 .intro a:hover ,.intro a:focus {
 	color: #000;
 	border-bottom-color: #000;
@@ -493,9 +493,9 @@ footer[role=contentinfo] img {
 	}
 	.intro {
 		position: absolute;
-		top: 120px;
-		left: 50%;
-		font-size: 16px;
+		top: 30px;
+		left: 20%;
+		font-size: 1.2em;
 		line-height: 1.2;
 		margin: 0 auto;
 }
@@ -503,6 +503,14 @@ footer[role=contentinfo] img {
 	h1 {
 		font-size: 5.6em;
 	}
+	.intro {
+		position: absolute;
+		top: 120px;
+		left: 50%;
+		font-size: 1.2em;
+		line-height: 1.2;
+		margin: 0 auto;
+}	
 	.container {
 		padding-bottom: 4em;
 	}
@@ -623,7 +631,7 @@ footer[role=contentinfo] img {
 	.intro {
 		position: absolute;
 		top: 192px;
-		left: 78%;
+		left: 70%;
 		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;

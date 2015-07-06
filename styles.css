@@ -111,7 +111,7 @@ input[type=search] {
 
 /************Structure**************/
 .container {
-	max-width: 70em;
+	max-width: 100em;
 	margin: 0 auto;
 	padding: 0 1em;
 	overflow: hidden;
@@ -602,7 +602,7 @@ footer[role=contentinfo] img {
 /* Large Screens */
 @media all and (min-width: 54em) {
 	h1 {
-		font-size: 250px;
+		font-size: 285px;
 		margin:0;
 		margin-left: -30px;
 	}
@@ -623,7 +623,7 @@ footer[role=contentinfo] img {
 	.intro {
 		position: absolute;
 		top: 192px;
-		left: 78%;
+		left: 1000px;
 		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;

@@ -93,11 +93,11 @@ h1 {
 	line-height: 1;
 	margin-bottom: 0.2em;
     font-weight: normal;
-    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21deg, 0deg);
-    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21deg, 0deg);
-    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21deg, 0deg);
-    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21deg, 0deg);
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21deg, 0deg);
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21.5deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21.5deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21.5deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21.5deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-21.5deg, 0deg);
 }
 h2 {
 	font-size: 1.8em;

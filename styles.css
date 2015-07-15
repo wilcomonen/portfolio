@@ -208,36 +208,12 @@ footer[role=contentinfo] img {
 	margin: 0 -1em;
 	overflow: hidden;
 }
-.grid:target {
-	-webkit-animation: fadeout 5s 1 ease-out;
-    -moz-animation: fadeout 5s 1 ease-out; 
-    -o-animation: fadeout 5s 1 ease-out;
-    animation: fadeout 5s 1 ease-out; 
-}
 .grid > h2 {
 	margin-left: 0.45em;
 }
 .grid > section {
 	padding: 1em 1em 0.5em;
 }
-.grid > section:target {
-	-webkit-animation: fadeout 5s 1 ease-out;
-    -moz-animation: fadeout 5s 1 ease-out; 
-    -o-animation: fadeout 5s 1 ease-out;
-    animation: fadeout 5s 1 ease-out; 
-}
-.grid ul {
-	overflow: hidden;
-}
-.grid ul li {
-	margin-bottom: 0.3em;
-}
-.featured:after {
-	content: "*";
-	color: #e51837;
-}
-
-
 
 /*Homepage*/
 .home h1 {
@@ -312,15 +288,7 @@ footer[role=contentinfo] img {
 	.container {
 		padding-bottom: 4em;
 	}
-
-	.grid ul li {
-		width: 50%;
-		float: left;
-	}
-	.grid ul li:nth-child(odd) {
-		padding-right: 1em;
-		clear: left;
-	}
+}
 
 	
 
@@ -336,15 +304,8 @@ footer[role=contentinfo] img {
 		float: left;
 		width: 50%;
 	}
-	.grid > section:nth-of-type(3n+1) {
+	.grid > section:nth-of-type(50n+50) {
 		clear: left;
-	}
-	.grid ul li {
-		width: auto;
-		float: none;
-	}
-	.grid ul li:nth-child(odd) {
-		padding-right: 0;
 	}
 	.landscape {
 	    display: block;
@@ -358,27 +319,4 @@ footer[role=contentinfo] img {
 		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;
-}	
-
-
-/* CSS Animations */
-@-webkit-keyframes fadeout {
-  0%   { background: #fff; }
-  10%   { background: #eee; }
-  100% { background: #fff; }
-}
-@-moz-keyframes fadeout {
-  0%   { background: #fff; }
-  10%   { background: #eee; }
-  100% { background: #fff; }
-}
-@-o-keyframes fadeout {
-  0%   { background: #fff; }
-  10%   { background: #eee; }
-  100% { background: #fff; }
-}
-@keyframes fadeout {
-  0%   { background: #fff; }
-  10%   { background: #eee; }
-  100% { background: #fff; }
-}
+}	}

@@ -8,11 +8,6 @@ html, body, div, object, iframe, fieldset {
 	padding: 0; 
 	border: 0;
 } 
-ol, ul { 
-	list-style: none;
-	margin: 0;
-	padding: 0;
-} 
 table { 
 	border-collapse: collapse; 
 	border-spacing: 0; 
@@ -20,9 +15,8 @@ table {
 header, footer, nav, section, article, hgroup, figure {
 	display: block;	
 }
-legend {
-	display: none;
-}
+
+
 /************End Reset**************/
 
 /************Global**************/
@@ -33,13 +27,31 @@ body {
 	padding: 0;
 	-webkit-text-size-adjust: none;
 }
+
 a {
-	color: #808080;
 	text-decoration: none;
 }
-a:hover, a:focus {
-	color: black;
+
+/* unvisited link */
+a:link {
+    color: #0000CC ;
 }
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0000CC;
+}
+
+/* selected link */
+a:active {
+    color: #0000CC;
+}
+
 #indent{
 	margin-left: 20px;
 }
@@ -50,6 +62,7 @@ a:hover, a:focus {
 #images{
 	margin-bottom: 50px;
 }
+
 #arrow{
 	box-shadow: 0px 0px 0px #fff;
 	margin-top: 20px;
@@ -67,6 +80,18 @@ a:hover, a:focus {
 	padding-top: 25px;
 	height: 0;
 }
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+       opacity: 0.5;
+      }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -88,7 +113,7 @@ img, object, video {
 	max-width: 100%;
 	border: 0;
 	margin-bottom: ;
-	 box-shadow: 0px 0px 2px #D8D8D8;
+	box-shadow: 0px 0px 2px #D8D8D8;
 }
 a img {
 	border: 0;
@@ -114,36 +139,8 @@ h3 {
 	font-weight: normal;
 	line-height: 1.1;
 }
-h1 a, h2 a, h3 a {
-	display: block;
-	color: #000;
-}
-h1 a:hover, h2 a:hover, h3 a:hover {
-	color: gray;
-}
-blockquote {
-	border-left: 0.5em solid #ddd;
-	padding-left: 1em;
-	margin-left: 1em;
-}
-small {
-	color: #e51837;
-}
 
-input, textarea {
-	border: 1px solid #000;
-}
 
-input[type=search] {
-	-webkit-appearance: none;
-	border-radius: 0;
-}
-::-webkit-input-placeholder {
-	color: #808080;
-}
-:-moz-placeholder {  
-    color: #808080;
-}
 /************End Global**************/
 
 /************Classes**************/
@@ -163,45 +160,7 @@ div[role=main] {
 	padding-bottom: 1em;
 }
 
-/*Footer*/
-footer[role=contentinfo] {
-	color: #fff;
-	background: #000;
-	margin: 0 -1em;
-	position: relative;
-	z-index: 2;
-}
-footer[role=contentinfo] > div {
-	max-width: 70em;
-	padding: 0 1em;
-	margin: 0 auto;
-	overflow: hidden;
-}
-footer[role=contentinfo] p {
-	margin: 0;
-}
-footer[role=contentinfo] .nav li a {
-	display: block;
-	border-bottom: 1px solid #808080;
-	padding: 1em;
-	margin: 0 -1em;
-}
-footer[role=contentinfo] a {
-	display: inline-block;
-	padding: 0.5em 0;
-}
-footer[role=contentinfo] a.nav-home {
-	color: #fff;
-}
-footer[role=contentinfo] .f-rga {
-	padding: 0.6em 0;
-}
-footer[role=contentinfo] img {
-	max-width: 4.4em;
-	display: inline-block;
-	margin-bottom: -0.22em;
-}
-/*End Footer*/
+
 
 /*Grid*/
 .grid {
@@ -213,39 +172,6 @@ footer[role=contentinfo] img {
 }
 .grid > section {
 	padding: 1em 1em 0.5em;
-}
-
-/*Homepage*/
-.home h1 {
-	margin-bottom: 0.2em;
-}
-	.intro {
-		position: absolute;
-		top: 192px;
-		left: 50%;
-		font-size: 1.8em;
-		line-height: 1.2;
-		margin: 0 auto;
-}	
-.intro a:hover ,.intro a:focus {
-	color: #000;
-	border-bottom-color: #000;
-}
-
-
-
-/* Button Stlyes */
-.block-btn {
-	color: #fff;
-	background: #000;
-	display: inline-block;
-	margin: 1.5em 0;
-	font-size: 110%;
-	padding: 1em;
-}
-.block-btn:hover, .block-btn:focus {
-	color: #fff;
-	background: #e51837;
 }
 
 
@@ -303,9 +229,7 @@ footer[role=contentinfo] img {
 	.grid > section {
 		float: left;
 		width: 50%;
-	}
-	.grid > section:nth-of-type(50n+50) {
-		clear: left;
+	
 	}
 	.landscape {
 	    display: block;

@@ -28,6 +28,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+#about{
+	margin-top:60px;
+}
+
 a {
 	text-decoration: none;
 }

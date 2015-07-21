@@ -190,6 +190,7 @@ div[role=main] {
 	    width: 100%;
 		margin-top:2px;
 		margin-left:-18px;
+		margin-bottom:0px;
 	       /* 100 = view port width, as 1vw = 1/100th of that
 	          So if the container is 50% of view port (as here)
 	          then factor that into how you want it to size.
@@ -199,11 +200,13 @@ div[role=main] {
 	       font-size: 51vw; 
 	}
 	.intro {
-		top: 30px;
-		left: 30%;
 		font-size: 1.2em;
 		line-height: 1.2;
 		margin: 0 auto;
+		padding: 5px;
+	    border-style: solid;
+	    border-width: 1px;
+		text-align: center;
 	}
 }
 

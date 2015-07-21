@@ -48,7 +48,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #0000CC;
+	transition: color 0.5s ease;
+	  color: #0000CC;
 }
 
 /* selected link */

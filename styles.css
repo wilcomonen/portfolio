@@ -188,7 +188,7 @@ div[role=main] {
 @media all and (max-width:35em){
 	h1 {
 		margin-top:2px;
-		font-size: 180px;
+		font-size: 150px;
 		width:100%;
 	}
 	.intro {

@@ -215,9 +215,7 @@ div[role=main] {
 		text-align: center;
 		display: block;	
 	}
-	#about{
-		margin-top:-10px;
-	}
+
 }
 
 @media all and (min-width: 35em) {

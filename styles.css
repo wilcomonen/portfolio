@@ -221,27 +221,31 @@ div[role=main] {
 @media all and (min-width: 35em) {
 	h1 {
 		font-size: 5.6em;
+		margin:0;
 	}
 	.intro {
 		position: absolute;
-		top: 30px;
-		left: 30%;
+		top: 55px;
+		left: 70%;
 		font-size: 1.2em;
 		line-height: 1.2;
 		margin: 0 auto;
 }
 @media all and (min-width:40em) {
 	h1 {
-		font-size: 5.6em;
+		font-size: 150px;		
+		margin:0;
+		margin-left: -20px;
+		width:32%;
 	}
 	.intro {
 		position: absolute;
-		top: 120px;	
-		left: 50%;
-		font-size: 1.2em;
+		top: 90px;
+		left: 70%;
+		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;
-	}	
+}
 	.container {
 		padding-bottom: 4em;
 	}

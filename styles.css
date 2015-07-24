@@ -28,7 +28,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-#about{
+#about, .landscape{
 	margin-top:60px;
 }
 

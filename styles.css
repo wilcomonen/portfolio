@@ -224,9 +224,9 @@ div[role=main] {
 		margin:0;
 	}
 	.intro {
-		position: absolute;
-		top: 55px;
-		left: 70%;
+		position: relative;
+		top: -40px;
+		text-align: right;
 		font-size: 1.2em;
 		line-height: 1.2;
 		margin: 0 auto;
@@ -239,9 +239,9 @@ div[role=main] {
 		width:32%;
 	}
 	.intro {
-		position: absolute;
-		top: 90px;
-		left: 70%;
+		position: relative;
+		top: -50px;
+		text-align: right;
 		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;
@@ -258,7 +258,7 @@ div[role=main] {
 	h1 {
 		font-size: 150px;		
 		margin:0;
-		margin-left: -20px;
+		margin-left: -14px;
 		width:32%;
 	}
 	.grid > section {
@@ -271,10 +271,10 @@ div[role=main] {
 	    max-width: 100%;
 	    height: auto;
 	  }
-	.intro {
-		position: absolute;
-		top: 90px;
-		left: 70%;
+	.intro{
+		position: relative;
+		top: -50px;
+		text-align: right;
 		font-size: 1.8em;
 		line-height: 1.2;
 		margin: 0 auto;

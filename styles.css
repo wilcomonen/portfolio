@@ -21,8 +21,7 @@ header, footer, nav, section, article, hgroup, figure {
 
 /************Global**************/
 body {
-	background: #fff;
-	color: #000;
+	background: #fafafa;
 	font: 100%/1.4 'Monsterrat', helvetica, sans-serif;
 	padding: 0;
 	-webkit-text-size-adjust: none;
@@ -38,23 +37,23 @@ a {
 
 /* unvisited link */
 a:link {
-    color: black ;
+    color: rgba(0,0,0,1);
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: rgba(0,0,0,0.12);
 }
 
 /* mouse over link */
 a:hover {
 	transition: color 0.5s ease;
-	  color: #0000CC;
+	  color: #3f51b5;
 }
 
 /* selected link */
 a:active {
-    color: #0000CC;
+    color: #3f51b5;
 }
 
 #indent{
@@ -114,8 +113,9 @@ a:active {
   }
 p {
 	margin: 0 0 1em;
-	font-size: 1.4em;
+	font-size: 13pt;
 	font-weight: normal;
+	color: rgba(0,0,0,0.87);
 }
 img, object, video {
 	max-width: 100%;
@@ -161,7 +161,7 @@ h3 {
 .container {
 	max-width: 70em;
 	margin: 0 auto;
-	padding: 0 1em;
+	padding: 0 0em;
 	overflow: hidden;
 }
 div[role=main] {
@@ -194,14 +194,9 @@ div[role=main] {
 		bottom:0px;
 	    width: 100%;
 		margin-top:2px;
-		margin-left:-18px;
+		margin-left:0px;
 		margin-bottom:0px;
-	       /* 100 = view port width, as 1vw = 1/100th of that
-	          So if the container is 50% of view port (as here)
-	          then factor that into how you want it to size.
-	          Let's say you like 5vw if it were the whole width,
-	          then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
-	       */
+	       
 	       font-size: 51vw; 
 	}
 	.intro {
@@ -223,6 +218,7 @@ div[role=main] {
 		font-size: 5.6em;
 		margin:0;
 	}
+	
 	.intro {
 		position: relative;
 		top: -40px;
@@ -237,6 +233,8 @@ div[role=main] {
 		margin:0;
 		margin-left: -20px;
 		width:32%;
+	}
+	
 	}
 	.intro {
 		position: relative;
